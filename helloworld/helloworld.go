@@ -15,7 +15,7 @@ func main() {
   // the time, source file, and line number.
   log.SetFlags(0)
 
-  greeting, error := greetings.Hello("")
+  greeting, error := greetings.Hello("Go")
   // If an error was returned, print it to the console
   // and exit the program.
   if error != nil {
